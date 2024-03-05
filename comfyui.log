@@ -1,0 +1,158 @@
+** ComfyUI startup time: 2024-03-04 21:36:11.929763
+[2024-03-04 21:36] ** Platform: Windows
+[2024-03-04 21:36] ** Python version: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+[2024-03-04 21:36] ** Python executable: C:\Users\Rendord\AppData\Local\Programs\Python\Python310\python.exe
+[2024-03-04 21:36] ** Log path: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\comfyui.log
+[2024-03-04 21:36] 
+Prestartup times for custom nodes:
+[2024-03-04 21:36]    0.3 seconds: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-03-04 21:36] 
+[2024-03-04 21:36] Total VRAM 6144 MB, total RAM 16337 MB
+[2024-03-04 21:36] Set vram state to: NORMAL_VRAM
+[2024-03-04 21:36] Device: cuda:0 NVIDIA GeForce GTX 1060 6GB : cudaMallocAsync
+[2024-03-04 21:36] VAE dtype: torch.float32
+[2024-03-04 21:36] Using pytorch cross attention
+[2024-03-04 21:36] ### Loading: ComfyUI-Manager (V2.9)
+[2024-03-04 21:36] ### ComfyUI Revision: 2046 [a38b9b3a] | Released on '2024-03-04'
+[2024-03-04 21:36] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-03-04 21:36] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-03-04 21:36] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-03-04 21:36] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-03-04 21:36] ------------------------------------------
+[2024-03-04 21:36] [34mComfyroll Studio v1.76 : [92m 175 Nodes Loaded[0m
+[2024-03-04 21:36] ------------------------------------------
+[2024-03-04 21:36] ** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
+[2024-03-04 21:36] ** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
+[2024-03-04 21:36] ------------------------------------------
+[36;20m[comfyui_controlnet_aux] | INFO -> Using ckpts path: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\comfyui_controlnet_aux\ckpts[0m
+[2024-03-04 21:36] [36;20m[comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[2024-03-04 21:36] [36;20m[comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2024-03-04 21:36] F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\comfyui_controlnet_aux\node_wrappers\dwpose.py:26: UserWarning: DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly
+  warnings.warn("DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly")
+[2024-03-04 21:36] Searge-SDXL v4.3.1 in F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\SeargeSDXL
+[2024-03-04 21:36] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-03-04 21:36] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\was-node-suite-comfyui\was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-03-04 21:36] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
+[2024-03-04 21:36] 
+	[3m[93m"Don't watch the clock; do what it does. Keep going."[0m[3m - Sam Levenson[0m
+[2024-03-04 21:36] 
+[2024-03-04 21:36] 
+Import times for custom nodes:
+[2024-03-04 21:36]    0.3 seconds: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\comfyui_milehighstyler
+[2024-03-04 21:36]    0.6 seconds: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\ComfyUI_Comfyroll_CustomNodes
+[2024-03-04 21:36]    0.8 seconds: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-03-04 21:36]    1.2 seconds: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\SeargeSDXL
+[2024-03-04 21:36]    4.0 seconds: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\was-node-suite-comfyui
+[2024-03-04 21:36]    8.7 seconds: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\comfyui_controlnet_aux
+[2024-03-04 21:36] 
+[2024-03-04 21:36] Starting server
+[2024-03-04 21:36] 
+[2024-03-04 21:36] To see the GUI go to: http://127.0.0.1:8188
+[2024-03-04 21:36] FETCH DATA from: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\ComfyUI-Manager\extension-node-map.json
+[2024-03-04 21:36] got prompt
+[2024-03-04 21:36] model_type EPS
+[2024-03-04 21:36] adm 2816
+[2024-03-04 21:38] Using pytorch attention in VAE
+[2024-03-04 21:38] Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+[2024-03-04 21:38] Using pytorch attention in VAE
+[2024-03-04 21:39] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-03-04 21:39] clip unexpected: ['clip_l.transformer.text_model.embeddings.position_ids']
+[2024-03-04 21:39] model_type EPS
+[2024-03-04 21:39] adm 2560
+[2024-03-04 21:40] Using pytorch attention in VAE
+[2024-03-04 21:40] Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+[2024-03-04 21:40] Using pytorch attention in VAE
+[2024-03-04 21:41] loaded straight to GPU
+[2024-03-04 21:41] Requested to load SDXLRefiner
+[2024-03-04 21:41] Loading 1 new model
+[2024-03-04 21:41] loading in lowvram mode 64.0
+[2024-03-04 21:41] Requested to load SDXLClipModel
+[2024-03-04 21:41] Loading 1 new model
+[2024-03-04 21:43] Requested to load SDXLRefinerClipModel
+[2024-03-04 21:43] Loading 1 new model
+[2024-03-04 21:43] ERROR:root:!!! Exception during processing !!!
+[2024-03-04 21:43] ERROR:root:Traceback (most recent call last):
+  File "F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\execution.py", line 152, in recursive_execute
+    output_data, output_ui = get_output_data(obj, input_data_all)
+  File "F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\execution.py", line 82, in get_output_data
+    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
+  File "F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\execution.py", line 75, in map_node_over_list
+    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
+  File "F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\nodes.py", line 1483, in load_image
+    img = Image.open(image_path)
+  File "C:\Users\Rendord\AppData\Local\Programs\Python\Python310\lib\site-packages\PIL\Image.py", line 3236, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\Art and shit\\AI\\ComfyUI_REPO\\ComfyUI\\input\\image.png'
+
+[2024-03-04 21:43] Prompt executed in 383.80 seconds
+[2024-03-04 21:49] FETCH DATA from: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\ComfyUI-Manager\extension-node-map.json
+[2024-03-04 21:49] got prompt
+[2024-03-04 21:49] Using pytorch attention in VAE
+[2024-03-04 21:49] Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+[2024-03-04 21:49] Using pytorch attention in VAE
+[2024-03-04 21:49] Leftover VAE keys ['model_ema.decay', 'model_ema.num_updates']
+[2024-03-04 21:49] Requested to load AutoencoderKL
+[2024-03-04 21:49] Loading 1 new model
+[2024-03-04 21:49] Requested to load SDXL
+[2024-03-04 21:49] Loading 1 new model
+[2024-03-04 21:49] loading in lowvram mode 3187.5961532592773
+[2024-03-04 21:53] 100%|██████████████████████████████████████████████████████████████████████████████████| 16/16 [02:42<00:00,  4.76s/it]100%|██████████████████████████████████████████████████████████████████████████████████| 16/16 [02:42<00:00, 10.16s/it]
+[2024-03-04 21:53] Requested to load SDXLRefiner
+[2024-03-04 21:53] Loading 1 new model
+[2024-03-04 21:53] loading in lowvram mode 3185.489721298218
+[2024-03-04 21:56] 100%|████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:50<00:00,  9.35s/it]100%|████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:50<00:00, 12.72s/it]
+[2024-03-04 21:56] Requested to load AutoencoderKL
+[2024-03-04 21:56] Loading 1 new model
+[2024-03-04 21:57] Prompt executed in 490.64 seconds
+[2024-03-04 22:01] got prompt
+[2024-03-04 22:02] Requested to load SDXLClipModel
+[2024-03-04 22:02] Loading 1 new model
+[2024-03-04 22:02] Requested to load SDXLRefinerClipModel
+[2024-03-04 22:02] Loading 1 new model
+[2024-03-04 22:03] Requested to load SDXL
+[2024-03-04 22:03] Loading 1 new model
+[2024-03-04 22:03] loading in lowvram mode 3186.0576915740967
+[2024-03-04 22:07] 100%|██████████████████████████████████████████████████████████████████████████████████| 16/16 [02:23<00:00,  4.73s/it]100%|██████████████████████████████████████████████████████████████████████████████████| 16/16 [02:23<00:00,  8.97s/it]
+[2024-03-04 22:07] Requested to load SDXLRefiner
+[2024-03-04 22:07] Loading 1 new model
+[2024-03-04 22:08] loading in lowvram mode 3185.489721298218
+[2024-03-04 22:11] 100%|████████████████████████████████████████████████████████████████████████████████████| 4/4 [02:04<00:00, 19.40s/it]100%|████████████████████████████████████████████████████████████████████████████████████| 4/4 [02:04<00:00, 31.23s/it]
+[2024-03-04 22:11] Requested to load AutoencoderKL
+[2024-03-04 22:11] Loading 1 new model
+[2024-03-04 22:13] Prompt executed in 665.76 seconds
+[2024-03-04 22:17] got prompt
+[2024-03-04 22:17] Requested to load SDXLClipModel
+[2024-03-04 22:17] Loading 1 new model
+[2024-03-04 22:18] Requested to load SDXLRefinerClipModel
+[2024-03-04 22:18] Loading 1 new model
+[2024-03-04 22:18] Requested to load AutoencoderKL
+[2024-03-04 22:18] Loading 1 new model
+[2024-03-04 22:18] Requested to load SDXL
+[2024-03-04 22:18] Loading 1 new model
+[2024-03-04 22:18] loading in lowvram mode 3186.0576915740967
+[2024-03-04 22:21] 100%|██████████████████████████████████████████████████████████████████████████████████| 16/16 [01:18<00:00,  1.35s/it]100%|██████████████████████████████████████████████████████████████████████████████████| 16/16 [01:18<00:00,  4.93s/it]
+[2024-03-04 22:21] Requested to load SDXLRefiner
+[2024-03-04 22:21] Loading 1 new model
+[2024-03-04 22:21] loading in lowvram mode 3185.91339969635
+[2024-03-04 22:36] 100%|████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:20<00:00,  3.40s/it]100%|████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:20<00:00,  5.16s/it]
+[2024-03-04 22:36] Requested to load AutoencoderKL
+[2024-03-04 22:36] Loading 1 new model
+[2024-03-04 22:36] Prompt executed in 1138.26 seconds
+[2024-03-04 22:42] got prompt
+[2024-03-04 22:43] model_type EPS
+[2024-03-04 22:43] adm 2816
+[2024-03-04 22:45] Using pytorch attention in VAE
+[2024-03-04 22:45] Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+[2024-03-04 22:45] Using pytorch attention in VAE
+[2024-03-04 22:45] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-03-04 22:45] clip unexpected: ['clip_l.transformer.text_model.embeddings.position_ids']
+[2024-03-04 22:45] Requested to load SDXLClipModel
+[2024-03-04 22:45] Loading 1 new model
+[2024-03-04 22:47] Requested to load SDXL
+[2024-03-04 22:47] Loading 1 new model
+[2024-03-04 22:47] loading in lowvram mode 3186.0576915740967
+[2024-03-04 22:48] 100%|███████████████████████████████████████████████████████████████████████████████| 20/20 [00:56<00:00,  2.21s/it]100%|███████████████████████████████████████████████████████████████████████████████| 20/20 [00:56<00:00,  2.83s/it]
+[2024-03-04 22:48] Requested to load AutoencoderKL
+[2024-03-04 22:48] Loading 1 new model
+[2024-03-04 22:48] [34mWAS Node Suite: [0mImage file saved to: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\output\SDXL\ComfyUI_0001.png[0m
+[2024-03-04 22:48] Prompt executed in 359.84 seconds

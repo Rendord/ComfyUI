@@ -1,0 +1,98 @@
+** ComfyUI startup time: 2024-03-04 20:52:36.937922
+[2024-03-04 20:52] ** Platform: Windows
+[2024-03-04 20:52] ** Python version: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+[2024-03-04 20:52] ** Python executable: C:\Users\Rendord\AppData\Local\Programs\Python\Python310\python.exe
+[2024-03-04 20:52] ** Log path: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\comfyui.log
+[2024-03-04 20:52] 
+Prestartup times for custom nodes:
+[2024-03-04 20:52]    0.1 seconds: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-03-04 20:52] 
+[2024-03-04 20:52] Total VRAM 6144 MB, total RAM 16337 MB
+[2024-03-04 20:52] Set vram state to: NORMAL_VRAM
+[2024-03-04 20:52] Device: cuda:0 NVIDIA GeForce GTX 1060 6GB : cudaMallocAsync
+[2024-03-04 20:52] VAE dtype: torch.float32
+[2024-03-04 20:52] Using pytorch cross attention
+[2024-03-04 20:52] ### Loading: ComfyUI-Manager (V2.9)
+[2024-03-04 20:52] ### ComfyUI Revision: 2046 [a38b9b3a] | Released on '2024-03-04'
+[2024-03-04 20:52] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-03-04 20:52] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-03-04 20:52] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-03-04 20:52] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-03-04 20:52] [34mWAS Node Suite: [0mCreated default conf file at `F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\was-node-suite-comfyui\was_suite_config.json`.[0m
+[2024-03-04 20:52] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-03-04 20:52] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\was-node-suite-comfyui\was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-03-04 20:52] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
+[2024-03-04 20:52] 
+	[3m[93m"The only limit to our realization of tomorrow will be our doubts of today."[0m[3m - Franklin D. Roosevelt[0m
+[2024-03-04 20:52] 
+[2024-03-04 20:52] 
+Import times for custom nodes:
+[2024-03-04 20:52]    0.4 seconds: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-03-04 20:52]    4.2 seconds: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\was-node-suite-comfyui
+[2024-03-04 20:52] 
+[2024-03-04 20:52] Starting server
+[2024-03-04 20:52] 
+[2024-03-04 20:52] To see the GUI go to: http://127.0.0.1:8188
+[2024-03-04 20:52] FETCH DATA from: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\ComfyUI-Manager\extension-node-map.json
+[2024-03-04 20:58] FETCH DATA from: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\ComfyUI-Manager\.cache\1514988643_custom-node-list.json
+[2024-03-04 20:58] FETCH DATA from: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\ComfyUI-Manager\.cache\1742899825_extension-node-map.json
+[2024-03-04 20:59] Install custom node 'ComfyUI_Comfyroll_CustomNodes'
+[2024-03-04 20:59] install: ['https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes']
+[2024-03-04 20:59] Download: git clone 'https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes'
+[!] 
+[2024-03-04 20:59] 0it [00:00, ?it/s]100%|██████████| 412.0/412.0 [00:00<00:00, 603.86it/s]
+[2024-03-04 20:59] 100%|██████████| 412.0/412.0 [00:00<00:00, 603.86it/s]
+[2024-03-04 20:59] 100%|██████████| 192.0/192.0 [00:00<00:00, 276.95it/s]
+[2024-03-04 20:59] 100%|██████████| 192.0/192.0 [00:00<00:00, 276.95it/s]
+[2024-03-04 20:59] 100%|██████████| 2600.0/2600.0 [00:03<00:00, 799.85it/s]
+[2024-03-04 20:59] 100%|██████████| 2600.0/2600.0 [00:03<00:00, 799.85it/s]
+[2024-03-04 20:59] 100%|██████████| 1732.0/1732.0 [00:03<00:00, 530.20it/s]
+[2024-03-04 20:59] 100%|██████████| 1732.0/1732.0 [00:03<00:00, 530.20it/s]
+[2024-03-04 20:59] 100%|██████████| 1732.0/1732.0 [00:04<00:00, 410.59it/s]
+[2024-03-04 20:59] [2024-03-04 20:59] Installation was successful.
+[2024-03-04 20:59] After restarting ComfyUI, please refresh the browser.
+[2024-03-04 20:59] FETCH DATA from: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\ComfyUI-Manager\.cache\1514988643_custom-node-list.json
+[2024-03-04 20:59] FETCH DATA from: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\ComfyUI-Manager\.cache\1742899825_extension-node-map.json
+[2024-03-04 20:59] FETCH DATA from: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\ComfyUI-Manager\.cache\1514988643_custom-node-list.json
+[2024-03-04 20:59] FETCH DATA from: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\ComfyUI-Manager\.cache\1742899825_extension-node-map.json
+[2024-03-04 20:59] Install custom node 'SeargeSDXL'
+[2024-03-04 20:59] install: ['https://github.com/SeargeDP/SeargeSDXL']
+[2024-03-04 20:59] Download: git clone 'https://github.com/SeargeDP/SeargeSDXL'
+[!] 
+[2024-03-04 20:59] 0it [00:00, ?it/s]100%|██████████| 106.0/106.0 [00:00<00:00, 138.21it/s]
+[2024-03-04 20:59] 100%|██████████| 106.0/106.0 [00:00<00:00, 138.21it/s]
+[2024-03-04 20:59] 100%|██████████| 28.0/28.0 [00:00<00:00, 36.37it/s]
+[2024-03-04 20:59] 100%|██████████| 28.0/28.0 [00:00<00:00, 36.32it/s]
+[2024-03-04 20:59] 100%|██████████| 734.0/734.0 [01:44<00:00,  6.99it/s]
+[2024-03-04 21:01] 100%|██████████| 734.0/734.0 [01:44<00:00,  6.99it/s]
+[2024-03-04 21:01] 100%|██████████| 401.0/401.0 [01:44<00:00,  3.82it/s]
+[2024-03-04 21:01] 100%|██████████| 401.0/401.0 [01:44<00:00,  3.82it/s]
+[2024-03-04 21:01] 100%|██████████| 401.0/401.0 [01:45<00:00,  3.78it/s]
+[2024-03-04 21:01] [2024-03-04 21:01] Installation was successful.
+[2024-03-04 21:01] After restarting ComfyUI, please refresh the browser.
+[2024-03-04 21:01] FETCH DATA from: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\ComfyUI-Manager\.cache\1514988643_custom-node-list.json
+[2024-03-04 21:01] FETCH DATA from: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\ComfyUI-Manager\.cache\1742899825_extension-node-map.json
+[2024-03-04 21:02] Install custom node 'ComfyUI's ControlNet Auxiliary Preprocessors'
+[2024-03-04 21:02] install: ['https://github.com/Fannovel16/comfyui_controlnet_aux']
+[2024-03-04 21:02] Download: git clone 'https://github.com/Fannovel16/comfyui_controlnet_aux'
+[!] 
+[2024-03-04 21:02] 0it [00:00, ?it/s]100%|██████████| 607.0/607.0 [00:00<00:00, 880.33it/s]
+[2024-03-04 21:02] 100%|██████████| 607.0/607.0 [00:00<00:00, 880.33it/s]
+[2024-03-04 21:02] 100%|██████████| 162.0/162.0 [00:00<00:00, 232.59it/s]
+[2024-03-04 21:02] 100%|██████████| 162.0/162.0 [00:00<00:00, 232.59it/s]
+[2024-03-04 21:02] 100%|██████████| 4157.0/4157.0 [00:17<00:00, 236.23it/s]
+[2024-03-04 21:02] 100%|██████████| 4157.0/4157.0 [00:17<00:00, 236.23it/s]
+[2024-03-04 21:02] 100%|██████████| 2227.0/2227.0 [00:17<00:00, 126.42it/s]
+[2024-03-04 21:02] 100%|██████████| 2227.0/2227.0 [00:17<00:00, 126.42it/s]
+[2024-03-04 21:02] 100%|██████████| 2227.0/2227.0 [00:19<00:00, 116.36it/s]
+[2024-03-04 21:02] [2024-03-04 21:02] Install: pip packages
+[2024-03-04 21:02] Installation was successful.
+[2024-03-04 21:02] After restarting ComfyUI, please refresh the browser.
+[2024-03-04 21:02] FETCH DATA from: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\ComfyUI-Manager\.cache\1514988643_custom-node-list.json
+[2024-03-04 21:02] FETCH DATA from: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\ComfyUI-Manager\.cache\1742899825_extension-node-map.json
+[2024-03-04 21:03] FETCH DATA from: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\ComfyUI-Manager\.cache\4245046894_model-list.json
+[2024-03-04 21:03] Install model '4x-UltraSharp' into 'F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\models\upscale_models\4x-UltraSharp.pth'
+[2024-03-04 21:04] Installation was successful.
+[2024-03-04 21:04] FETCH DATA from: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\ComfyUI-Manager\.cache\4245046894_model-list.json
+[2024-03-04 21:17] 
+Stopped server

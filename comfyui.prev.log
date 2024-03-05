@@ -1,0 +1,509 @@
+** ComfyUI startup time: 2024-03-04 21:17:25.908589
+[2024-03-04 21:17] ** Platform: Windows
+[2024-03-04 21:17] ** Python version: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+[2024-03-04 21:17] ** Python executable: C:\Users\Rendord\AppData\Local\Programs\Python\Python310\python.exe
+[2024-03-04 21:17] ** Log path: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\comfyui.log
+[2024-03-04 21:17] 
+#######################################################################
+[2024-03-04 21:17] [ComfyUI-Manager] Starting dependency installation/(de)activation for the extension
+[2024-03-04 21:17] 
+[2024-03-04 21:17] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Rendord\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-m', 'pip', 'install', 'importlib_metadata']
+[2024-03-04 21:17] 
+## Execute install/(de)activation script for 'F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-03-04 21:17]   [!] 
+[2024-03-04 21:17] [!] [notice] A new release of pip is available: 23.3.2 -> 24.0
+[2024-03-04 21:17] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-03-04 21:17] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Rendord\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-m', 'pip', 'install', 'huggingface_hub']
+[2024-03-04 21:17] 
+## Execute install/(de)activation script for 'F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-03-04 21:17]              [!] 
+[2024-03-04 21:17] [!] [notice] A new release of pip is available: 23.3.2 -> 24.0
+[2024-03-04 21:17] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-03-04 21:17] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Rendord\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-m', 'pip', 'install', 'opencv-python>=4.7.0.72']
+[2024-03-04 21:17] 
+## Execute install/(de)activation script for 'F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-03-04 21:17]  Collecting opencv-python>=4.7.0.72
+[2024-03-04 21:17]    Downloading opencv_python-4.9.0.80-cp37-abi3-win_amd64.whl.metadata (20 kB)
+[2024-03-04 21:17]   Downloading opencv_python-4.9.0.80-cp37-abi3-win_amd64.whl (38.6 MB)
+[2024-03-04 21:17]     ---------------------------------------- 38.6/38.6 MB 3.0 MB/s eta 0:00:00
+[2024-03-04 21:17]  Installing collected packages: opencv-python
+[2024-03-04 21:17]  Successfully installed opencv-python-4.9.0.80
+[2024-03-04 21:17] [!] 
+[2024-03-04 21:17] [!] [notice] A new release of pip is available: 23.3.2 -> 24.0
+[2024-03-04 21:17] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-03-04 21:17] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Rendord\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-m', 'pip', 'install', 'mediapipe']
+[2024-03-04 21:17] 
+## Execute install/(de)activation script for 'F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-03-04 21:17]  Collecting mediapipe
+[2024-03-04 21:17]    Downloading mediapipe-0.10.10-cp310-cp310-win_amd64.whl.metadata (9.8 kB)
+[2024-03-04 21:17]  Collecting absl-py (from mediapipe)
+[2024-03-04 21:17]    Downloading absl_py-2.1.0-py3-none-any.whl.metadata (2.3 kB)
+[2024-03-04 21:17]    Collecting jax (from mediapipe)
+[2024-03-04 21:17]    Downloading jax-0.4.25-py3-none-any.whl.metadata (24 kB)
+[2024-03-04 21:17]    Collecting opencv-contrib-python (from mediapipe)
+[2024-03-04 21:17]    Downloading opencv_contrib_python-4.9.0.80-cp37-abi3-win_amd64.whl.metadata (20 kB)
+[2024-03-04 21:17]  Collecting protobuf<4,>=3.11 (from mediapipe)
+[2024-03-04 21:17]    Downloading protobuf-3.20.3-cp310-cp310-win_amd64.whl.metadata (698 bytes)
+[2024-03-04 21:17]  Collecting sounddevice>=0.4.4 (from mediapipe)
+[2024-03-04 21:17]    Downloading sounddevice-0.4.6-py3-none-win_amd64.whl.metadata (1.4 kB)
+[2024-03-04 21:17]   Collecting ml-dtypes>=0.2.0 (from jax->mediapipe)
+[2024-03-04 21:17]    Downloading ml_dtypes-0.3.2-cp310-cp310-win_amd64.whl.metadata (20 kB)
+[2024-03-04 21:17]  Collecting opt-einsum (from jax->mediapipe)
+[2024-03-04 21:17]    Downloading opt_einsum-3.3.0-py3-none-any.whl.metadata (6.5 kB)
+[2024-03-04 21:17]             Downloading mediapipe-0.10.10-cp310-cp310-win_amd64.whl (50.7 MB)
+[2024-03-04 21:17]     ---------------------------------------- 50.7/50.7 MB 3.0 MB/s eta 0:00:00
+[2024-03-04 21:18]  Downloading protobuf-3.20.3-cp310-cp310-win_amd64.whl (904 kB)
+[2024-03-04 21:18]     ---------------------------------------- 904.0/904.0 kB 2.7 MB/s eta 0:00:00
+[2024-03-04 21:18]  Downloading sounddevice-0.4.6-py3-none-win_amd64.whl (199 kB)
+[2024-03-04 21:18]     ---------------------------------------- 199.7/199.7 kB 2.0 MB/s eta 0:00:00
+[2024-03-04 21:18]  Downloading absl_py-2.1.0-py3-none-any.whl (133 kB)
+[2024-03-04 21:18]     ---------------------------------------- 133.7/133.7 kB 1.3 MB/s eta 0:00:00
+[2024-03-04 21:18]  Downloading jax-0.4.25-py3-none-any.whl (1.8 MB)
+[2024-03-04 21:18]     ---------------------------------------- 1.8/1.8 MB 2.9 MB/s eta 0:00:00
+[2024-03-04 21:18]  Downloading opencv_contrib_python-4.9.0.80-cp37-abi3-win_amd64.whl (45.3 MB)
+[2024-03-04 21:18]  [!]   ---------------------------------------- 45.3/45.3 MB 2.7 MB/s eta 0:00:00
+ [2024-03-04 21:19] 
+[2024-03-04 21:19]  [!]Downloading ml_dtypes-0.3.2-cp310-cp310-win_amd64.whl (127 kB)
+ [2024-03-04 21:19] [notice] A new release of pip is available: 23.3.2 -> 24.0
+[2024-03-04 21:19]  [!]   ---------------------------------------- 127.8/127.8 kB 2.5 MB/s eta 0:00:00
+ [2024-03-04 21:19] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-03-04 21:19]  Downloading opt_einsum-3.3.0-py3-none-any.whl (65 kB)
+[2024-03-04 21:19]     ---------------------------------------- 65.5/65.5 kB 1.8 MB/s eta 0:00:00
+[2024-03-04 21:19]  Installing collected packages: protobuf, opt-einsum, opencv-contrib-python, ml-dtypes, absl-py, sounddevice, jax, mediapipe
+[2024-03-04 21:19]    Attempting uninstall: protobuf
+[2024-03-04 21:19]      Found existing installation: protobuf 4.25.2
+[2024-03-04 21:19]      Uninstalling protobuf-4.25.2:
+[2024-03-04 21:19]        Successfully uninstalled protobuf-4.25.2
+[2024-03-04 21:19]  Successfully installed absl-py-2.1.0 jax-0.4.25 mediapipe-0.10.10 ml-dtypes-0.3.2 opencv-contrib-python-4.9.0.80 opt-einsum-3.3.0 protobuf-3.20.3 sounddevice-0.4.6
+[2024-03-04 21:19] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Rendord\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-m', 'pip', 'install', 'svglib']
+[2024-03-04 21:19] 
+## Execute install/(de)activation script for 'F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-03-04 21:19]  Collecting svglib
+[2024-03-04 21:19]    Downloading svglib-1.5.1.tar.gz (913 kB)
+[2024-03-04 21:19]       -------------------------------------- 913.9/913.9 kB 1.6 MB/s eta 0:00:00
+[2024-03-04 21:19]    Installing build dependencies: started
+[2024-03-04 21:19]    Installing build dependencies: finished with status 'done'
+[2024-03-04 21:19]    Getting requirements to build wheel: started
+[2024-03-04 21:19]    Getting requirements to build wheel: finished with status 'done'
+[2024-03-04 21:19]    Preparing metadata (pyproject.toml): started
+[2024-03-04 21:19]    Preparing metadata (pyproject.toml): finished with status 'done'
+[2024-03-04 21:19]  Collecting reportlab (from svglib)
+[2024-03-04 21:19]    Downloading reportlab-4.1.0-py3-none-any.whl.metadata (1.4 kB)
+[2024-03-04 21:19]   Collecting tinycss2>=0.6.0 (from svglib)
+[2024-03-04 21:19]    Downloading tinycss2-1.2.1-py3-none-any.whl.metadata (3.0 kB)
+[2024-03-04 21:19]  Collecting cssselect2>=0.2.0 (from svglib)
+[2024-03-04 21:19]    Downloading cssselect2-0.7.0-py3-none-any.whl.metadata (2.9 kB)
+[2024-03-04 21:19]  Collecting webencodings (from cssselect2>=0.2.0->svglib)
+[2024-03-04 21:19]    Downloading webencodings-0.5.1-py2.py3-none-any.whl.metadata (2.1 kB)
+[2024-03-04 21:19]   Collecting chardet (from reportlab->svglib)
+[2024-03-04 21:19]    Downloading chardet-5.2.0-py3-none-any.whl.metadata (3.4 kB)
+[2024-03-04 21:19]  Downloading cssselect2-0.7.0-py3-none-any.whl (15 kB)
+[2024-03-04 21:19]  Downloading tinycss2-1.2.1-py3-none-any.whl (21 kB)
+[2024-03-04 21:19]  Downloading reportlab-4.1.0-py3-none-any.whl (1.9 MB)
+[2024-03-04 21:19]     ---------------------------------------- 1.9/1.9 MB 3.3 MB/s eta 0:00:00
+[2024-03-04 21:19]  Downloading webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+[2024-03-04 21:19]  Downloading chardet-5.2.0-py3-none-any.whl (199 kB)
+[2024-03-04 21:19]     ---------------------------------------- 199.4/199.4 kB 3.0 MB/s eta 0:00:00
+[2024-03-04 21:19]  Building wheels for collected packages: svglib
+[2024-03-04 21:19]    Building wheel for svglib (pyproject.toml): started
+[2024-03-04 21:19]    Building wheel for svglib (pyproject.toml): finished with status 'done'
+[2024-03-04 21:19]    Created wheel for svglib: filename=svglib-1.5.1-py3-none-any.whl size=30977 sha256=5cae7f75cd28e76516476072b00b9b344f9da58d028a5889bce7cfd44a4e49f6
+[2024-03-04 21:19]    Stored in directory: c:\users\rendord\appdata\local\pip\cache\wheels\56\9f\90\f37f4b9dbf82987a24ae14f15586e96715cb669a4710b3b85d
+[2024-03-04 21:19]  Successfully built svglib
+[2024-03-04 21:19]  Installing collected packages: webencodings, tinycss2, chardet, reportlab, cssselect2, svglib
+[2024-03-04 21:19]  Successfully installed chardet-5.2.0 cssselect2-0.7.0 reportlab-4.1.0 svglib-1.5.1 tinycss2-1.2.1 webencodings-0.5.1
+[2024-03-04 21:19] [!] 
+[2024-03-04 21:19] [!] [notice] A new release of pip is available: 23.3.2 -> 24.0
+[2024-03-04 21:19] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-03-04 21:19] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Rendord\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-m', 'pip', 'install', 'fvcore']
+[2024-03-04 21:19] 
+## Execute install/(de)activation script for 'F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-03-04 21:19]  Collecting fvcore
+[2024-03-04 21:19]    Downloading fvcore-0.1.5.post20221221.tar.gz (50 kB)
+[2024-03-04 21:19]       -------------------------------------- 50.2/50.2 kB 850.6 kB/s eta 0:00:00
+[2024-03-04 21:19]    Installing build dependencies: started
+[2024-03-04 21:19]    Installing build dependencies: finished with status 'done'
+[2024-03-04 21:19]    Getting requirements to build wheel: started
+[2024-03-04 21:19]    Getting requirements to build wheel: finished with status 'done'
+[2024-03-04 21:19]    Preparing metadata (pyproject.toml): started
+[2024-03-04 21:19]    Preparing metadata (pyproject.toml): finished with status 'done'
+[2024-03-04 21:19]   Collecting yacs>=0.1.6 (from fvcore)
+[2024-03-04 21:19]    Downloading yacs-0.1.8-py3-none-any.whl.metadata (639 bytes)
+[2024-03-04 21:19]    Collecting termcolor>=1.1 (from fvcore)
+[2024-03-04 21:19]    Downloading termcolor-2.4.0-py3-none-any.whl.metadata (6.1 kB)
+[2024-03-04 21:19]   Collecting tabulate (from fvcore)
+[2024-03-04 21:19]    Downloading tabulate-0.9.0-py3-none-any.whl.metadata (34 kB)
+[2024-03-04 21:19]  Collecting iopath>=0.1.7 (from fvcore)
+[2024-03-04 21:19]    Downloading iopath-0.1.10.tar.gz (42 kB)
+[2024-03-04 21:19]       ---------------------------------------- 42.2/42.2 kB 2.0 MB/s eta 0:00:00
+[2024-03-04 21:19]    Installing build dependencies: started
+[2024-03-04 21:19]    Installing build dependencies: finished with status 'done'
+[2024-03-04 21:19]    Getting requirements to build wheel: started
+[2024-03-04 21:19]    Getting requirements to build wheel: finished with status 'done'
+[2024-03-04 21:19]    Preparing metadata (pyproject.toml): started
+[2024-03-04 21:19]    Preparing metadata (pyproject.toml): finished with status 'done'
+[2024-03-04 21:19]   Collecting portalocker (from iopath>=0.1.7->fvcore)
+[2024-03-04 21:19]    Downloading portalocker-2.8.2-py3-none-any.whl.metadata (8.5 kB)
+[2024-03-04 21:19]   Collecting pywin32>=226 (from portalocker->iopath>=0.1.7->fvcore)
+[2024-03-04 21:19]    Downloading pywin32-306-cp310-cp310-win_amd64.whl.metadata (6.6 kB)
+[2024-03-04 21:19]  Downloading termcolor-2.4.0-py3-none-any.whl (7.7 kB)
+[2024-03-04 21:19]  Downloading yacs-0.1.8-py3-none-any.whl (14 kB)
+[2024-03-04 21:19]  Downloading tabulate-0.9.0-py3-none-any.whl (35 kB)
+[2024-03-04 21:19]  Downloading portalocker-2.8.2-py3-none-any.whl (17 kB)
+[2024-03-04 21:19]  Downloading pywin32-306-cp310-cp310-win_amd64.whl (9.2 MB)
+[2024-03-04 21:19]     ---------------------------------------- 9.2/9.2 MB 2.5 MB/s eta 0:00:00
+[2024-03-04 21:19]  Building wheels for collected packages: fvcore, iopath
+[2024-03-04 21:19]    Building wheel for fvcore (pyproject.toml): started
+[2024-03-04 21:19]    Building wheel for fvcore (pyproject.toml): finished with status 'done'
+[2024-03-04 21:19]    Created wheel for fvcore: filename=fvcore-0.1.5.post20221221-py3-none-any.whl size=61411 sha256=f4b8cd069c0a982ba33945903fb60559dfe35f7e7ec9033c7d64726cfa78f653
+[2024-03-04 21:19]    Stored in directory: c:\users\rendord\appdata\local\pip\cache\wheels\01\c0\af\77c1cf53a1be9e42a52b48e5af2169d40ec2e89f7362489dd0
+[2024-03-04 21:19]    Building wheel for iopath (pyproject.toml): started
+[2024-03-04 21:19]    Building wheel for iopath (pyproject.toml): finished with status 'done'
+[2024-03-04 21:19]    Created wheel for iopath: filename=iopath-0.1.10-py3-none-any.whl size=31541 sha256=2565ce8d43ca843071e5e95000adda69cacdfc2edd9af10051452ee7367f0d8c
+[2024-03-04 21:19]    Stored in directory: c:\users\rendord\appdata\local\pip\cache\wheels\9a\a3\b6\ac0fcd1b4ed5cfeb3db92e6a0e476cfd48ed0df92b91080c1d
+[2024-03-04 21:19]  Successfully built fvcore iopath
+[2024-03-04 21:19]  Installing collected packages: pywin32, yacs, termcolor, tabulate, portalocker, iopath, fvcore
+[2024-03-04 21:19]  Successfully installed fvcore-0.1.5.post20221221 iopath-0.1.10 portalocker-2.8.2 pywin32-306 tabulate-0.9.0 termcolor-2.4.0 yacs-0.1.8
+[2024-03-04 21:19] [!] 
+[2024-03-04 21:19] [!] [notice] A new release of pip is available: 23.3.2 -> 24.0
+[2024-03-04 21:19] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-03-04 21:19] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Rendord\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-m', 'pip', 'install', 'yapf']
+[2024-03-04 21:19] 
+## Execute install/(de)activation script for 'F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-03-04 21:19]  Collecting yapf
+[2024-03-04 21:19]    Downloading yapf-0.40.2-py3-none-any.whl.metadata (45 kB)
+[2024-03-04 21:19]       ---------------------------------------- 45.4/45.4 kB 1.1 MB/s eta 0:00:00
+[2024-03-04 21:19]    Collecting tomli>=2.0.1 (from yapf)
+[2024-03-04 21:20]    Downloading tomli-2.0.1-py3-none-any.whl.metadata (8.9 kB)
+[2024-03-04 21:20]   Downloading yapf-0.40.2-py3-none-any.whl (254 kB)
+[2024-03-04 21:20]     ---------------------------------------- 254.7/254.7 kB 2.6 MB/s eta 0:00:00
+[2024-03-04 21:20]  Downloading tomli-2.0.1-py3-none-any.whl (12 kB)
+[2024-03-04 21:20]  Installing collected packages: tomli, yapf
+[2024-03-04 21:20]  Successfully installed tomli-2.0.1 yapf-0.40.2
+[2024-03-04 21:20] [!] 
+[2024-03-04 21:20] [!] [notice] A new release of pip is available: 23.3.2 -> 24.0
+[2024-03-04 21:20] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-03-04 21:20] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Rendord\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-m', 'pip', 'install', 'omegaconf']
+[2024-03-04 21:20] 
+## Execute install/(de)activation script for 'F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-03-04 21:20]  Collecting omegaconf
+[2024-03-04 21:20]    Downloading omegaconf-2.3.0-py3-none-any.whl.metadata (3.9 kB)
+[2024-03-04 21:20]  Collecting antlr4-python3-runtime==4.9.* (from omegaconf)
+[2024-03-04 21:20]    Downloading antlr4-python3-runtime-4.9.3.tar.gz (117 kB)
+[2024-03-04 21:20]       -------------------------------------- 117.0/117.0 kB 2.3 MB/s eta 0:00:00
+[2024-03-04 21:20]    Installing build dependencies: started
+[2024-03-04 21:20]    Installing build dependencies: finished with status 'done'
+[2024-03-04 21:20]    Getting requirements to build wheel: started
+[2024-03-04 21:20]    Getting requirements to build wheel: finished with status 'done'
+[2024-03-04 21:20]    Preparing metadata (pyproject.toml): started
+[2024-03-04 21:20]    Preparing metadata (pyproject.toml): finished with status 'done'
+[2024-03-04 21:20]   Downloading omegaconf-2.3.0-py3-none-any.whl (79 kB)
+[2024-03-04 21:20]     ---------------------------------------- 79.5/79.5 kB 2.2 MB/s eta 0:00:00
+[2024-03-04 21:20]  Building wheels for collected packages: antlr4-python3-runtime
+[2024-03-04 21:20]    Building wheel for antlr4-python3-runtime (pyproject.toml): started
+[2024-03-04 21:20]    Building wheel for antlr4-python3-runtime (pyproject.toml): finished with status 'done'
+[2024-03-04 21:20]    Created wheel for antlr4-python3-runtime: filename=antlr4_python3_runtime-4.9.3-py3-none-any.whl size=144578 sha256=bb52f9a1c8fa709c68feb842f25b18a561a916c2c2560c1d067047dd425ac7aa
+[2024-03-04 21:20]    Stored in directory: c:\users\rendord\appdata\local\pip\cache\wheels\12\93\dd\1f6a127edc45659556564c5730f6d4e300888f4bca2d4c5a88
+[2024-03-04 21:20]  Successfully built antlr4-python3-runtime
+[2024-03-04 21:20]  Installing collected packages: antlr4-python3-runtime, omegaconf
+[2024-03-04 21:20]  Successfully installed antlr4-python3-runtime-4.9.3 omegaconf-2.3.0
+[2024-03-04 21:20] [!] 
+[2024-03-04 21:20] [!] [notice] A new release of pip is available: 23.3.2 -> 24.0
+[2024-03-04 21:20] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-03-04 21:20] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Rendord\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-m', 'pip', 'install', 'ftfy']
+[2024-03-04 21:20] 
+## Execute install/(de)activation script for 'F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-03-04 21:20]  Collecting ftfy
+[2024-03-04 21:20]    Downloading ftfy-6.1.3-py3-none-any.whl.metadata (6.2 kB)
+[2024-03-04 21:20]  Collecting wcwidth<0.3.0,>=0.2.12 (from ftfy)
+[2024-03-04 21:20]    Downloading wcwidth-0.2.13-py2.py3-none-any.whl.metadata (14 kB)
+[2024-03-04 21:20]  Downloading ftfy-6.1.3-py3-none-any.whl (53 kB)
+[2024-03-04 21:20]     ---------------------------------------- 53.4/53.4 kB 938.2 kB/s eta 0:00:00
+[2024-03-04 21:20]  Downloading wcwidth-0.2.13-py2.py3-none-any.whl (34 kB)
+[2024-03-04 21:20]  Installing collected packages: wcwidth, ftfy
+[2024-03-04 21:20]  Successfully installed ftfy-6.1.3 wcwidth-0.2.13
+[2024-03-04 21:20] [!] 
+[2024-03-04 21:20] [!] [notice] A new release of pip is available: 23.3.2 -> 24.0
+[2024-03-04 21:20] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-03-04 21:20] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Rendord\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-m', 'pip', 'install', 'addict']
+[2024-03-04 21:20] 
+## Execute install/(de)activation script for 'F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-03-04 21:20]  Collecting addict
+[2024-03-04 21:20]    Downloading addict-2.4.0-py3-none-any.whl.metadata (1.0 kB)
+[2024-03-04 21:20]  Downloading addict-2.4.0-py3-none-any.whl (3.8 kB)
+[2024-03-04 21:20]  Installing collected packages: addict
+[2024-03-04 21:20]  Successfully installed addict-2.4.0
+[2024-03-04 21:20] [!] 
+[2024-03-04 21:20] [!] [notice] A new release of pip is available: 23.3.2 -> 24.0
+[2024-03-04 21:20] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-03-04 21:20] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Rendord\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-m', 'pip', 'install', 'yacs']
+[2024-03-04 21:20] 
+## Execute install/(de)activation script for 'F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-03-04 21:20]   [!] 
+[2024-03-04 21:20] [!] [notice] A new release of pip is available: 23.3.2 -> 24.0
+[2024-03-04 21:20] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-03-04 21:20] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Rendord\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-m', 'pip', 'install', 'trimesh[easy]']
+[2024-03-04 21:20] 
+## Execute install/(de)activation script for 'F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-03-04 21:20]  Collecting trimesh[easy]
+[2024-03-04 21:20]    Downloading trimesh-4.1.7-py3-none-any.whl.metadata (18 kB)
+[2024-03-04 21:20]   Collecting colorlog (from trimesh[easy])
+[2024-03-04 21:20]    Downloading colorlog-6.8.2-py3-none-any.whl.metadata (10 kB)
+[2024-03-04 21:20]  Collecting mapbox-earcut (from trimesh[easy])
+[2024-03-04 21:20]    Downloading mapbox_earcut-1.0.1-cp310-cp310-win_amd64.whl.metadata (2.0 kB)
+[2024-03-04 21:20]      Collecting svg.path (from trimesh[easy])
+[2024-03-04 21:20]    Downloading svg.path-6.3-py2.py3-none-any.whl.metadata (13 kB)
+[2024-03-04 21:20]  Collecting pycollada (from trimesh[easy])
+[2024-03-04 21:20]    Downloading pycollada-0.8.tar.gz (108 kB)
+[2024-03-04 21:20]       -------------------------------------- 108.1/108.1 kB 2.1 MB/s eta 0:00:00
+[2024-03-04 21:20]    Installing build dependencies: started
+[2024-03-04 21:20]    Installing build dependencies: finished with status 'done'
+[2024-03-04 21:20]    Getting requirements to build wheel: started
+[2024-03-04 21:20]    Getting requirements to build wheel: finished with status 'done'
+[2024-03-04 21:20]    Preparing metadata (pyproject.toml): started
+[2024-03-04 21:20]    Preparing metadata (pyproject.toml): finished with status 'done'
+[2024-03-04 21:20]  Collecting setuptools (from trimesh[easy])
+[2024-03-04 21:20]    Using cached setuptools-69.1.1-py3-none-any.whl.metadata (6.2 kB)
+[2024-03-04 21:20]  Collecting shapely (from trimesh[easy])
+[2024-03-04 21:20]    Downloading shapely-2.0.3-cp310-cp310-win_amd64.whl.metadata (7.2 kB)
+[2024-03-04 21:20]  Collecting xxhash (from trimesh[easy])
+[2024-03-04 21:20]    Downloading xxhash-3.4.1-cp310-cp310-win_amd64.whl.metadata (12 kB)
+[2024-03-04 21:20]  Collecting rtree (from trimesh[easy])
+[2024-03-04 21:20]    Downloading Rtree-1.2.0-py3-none-win_amd64.whl.metadata (2.1 kB)
+[2024-03-04 21:20]    Collecting embreex (from trimesh[easy])
+[2024-03-04 21:20]    Downloading embreex-2.17.7.post4-cp310-cp310-win_amd64.whl.metadata (3.0 kB)
+[2024-03-04 21:20]   Collecting vhacdx (from trimesh[easy])
+[2024-03-04 21:20]    Downloading vhacdx-0.0.5-cp310-cp310-win_amd64.whl.metadata (1.1 kB)
+[2024-03-04 21:20]  Collecting xatlas (from trimesh[easy])
+[2024-03-04 21:20]    Downloading xatlas-0.0.9-cp310-cp310-win_amd64.whl.metadata (5.0 kB)
+[2024-03-04 21:20]                 Downloading colorlog-6.8.2-py3-none-any.whl (11 kB)
+[2024-03-04 21:20]  Downloading embreex-2.17.7.post4-cp310-cp310-win_amd64.whl (13.4 MB)
+[2024-03-04 21:20]     ---------------------------------------- 13.4/13.4 MB 3.2 MB/s eta 0:00:00
+[2024-03-04 21:20]  Downloading mapbox_earcut-1.0.1-cp310-cp310-win_amd64.whl (71 kB)
+[2024-03-04 21:20]     ---------------------------------------- 71.3/71.3 kB 1.9 MB/s eta 0:00:00
+[2024-03-04 21:20]  Downloading Rtree-1.2.0-py3-none-win_amd64.whl (481 kB)
+[2024-03-04 21:20]     ---------------------------------------- 481.9/481.9 kB 3.0 MB/s eta 0:00:00
+[2024-03-04 21:20]  Using cached setuptools-69.1.1-py3-none-any.whl (819 kB)
+[2024-03-04 21:20]  Downloading shapely-2.0.3-cp310-cp310-win_amd64.whl (1.4 MB)
+[2024-03-04 21:20]     ---------------------------------------- 1.4/1.4 MB 4.4 MB/s eta 0:00:00
+[2024-03-04 21:20]  Downloading svg.path-6.3-py2.py3-none-any.whl (16 kB)
+[2024-03-04 21:20]  Downloading trimesh-4.1.7-py3-none-any.whl (690 kB)
+[2024-03-04 21:20]     ---------------------------------------- 690.4/690.4 kB 4.3 MB/s eta 0:00:00
+[2024-03-04 21:20]  Downloading vhacdx-0.0.5-cp310-cp310-win_amd64.whl (126 kB)
+[2024-03-04 21:20]     -------------------------------------- 126.3/126.3 kB 828.7 kB/s eta 0:00:00
+[2024-03-04 21:20]  Downloading xatlas-0.0.9-cp310-cp310-win_amd64.whl (193 kB)
+[2024-03-04 21:20]     ---------------------------------------- 193.1/193.1 kB 2.0 MB/s eta 0:00:00
+[2024-03-04 21:20]  Downloading xxhash-3.4.1-cp310-cp310-win_amd64.whl (29 kB)
+[2024-03-04 21:20]  Building wheels for collected packages: pycollada
+[2024-03-04 21:20]    Building wheel for pycollada (pyproject.toml): started
+[2024-03-04 21:20]    Building wheel for pycollada (pyproject.toml): finished with status 'done'
+[2024-03-04 21:20]    Created wheel for pycollada: filename=pycollada-0.8-py3-none-any.whl size=127523 sha256=587147f8f0a9d98d7b95a337ba4b83d1c8ee1ea6670d41a4df5507a651726c75
+[2024-03-04 21:20]    Stored in directory: c:\users\rendord\appdata\local\pip\cache\wheels\11\92\79\6e8add42e1e207a97d435169cdc705e0a5dd6fb182f4368f3d
+[2024-03-04 21:20]  Successfully built pycollada
+[2024-03-04 21:20]  Installing collected packages: xxhash, xatlas, vhacdx, trimesh, svg.path, shapely, setuptools, rtree, mapbox-earcut, embreex, colorlog, pycollada
+[2024-03-04 21:20]  Successfully installed colorlog-6.8.2 embreex-2.17.7.post4 mapbox-earcut-1.0.1 pycollada-0.8 rtree-1.2.0 setuptools-69.1.1 shapely-2.0.3 svg.path-6.3 trimesh-4.1.7 vhacdx-0.0.5 xatlas-0.0.9 xxhash-3.4.1
+[2024-03-04 21:20] [!] 
+[2024-03-04 21:20] [!] [notice] A new release of pip is available: 23.3.2 -> 24.0
+[2024-03-04 21:20] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-03-04 21:20] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Rendord\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-m', 'pip', 'install', 'albumentations']
+[2024-03-04 21:20] 
+## Execute install/(de)activation script for 'F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-03-04 21:20]  Collecting albumentations
+[2024-03-04 21:20]    Downloading albumentations-1.4.0-py3-none-any.whl.metadata (35 kB)
+[2024-03-04 21:20]    Collecting scikit-image>=0.21.0 (from albumentations)
+[2024-03-04 21:20]    Using cached scikit_image-0.22.0-cp310-cp310-win_amd64.whl.metadata (13 kB)
+[2024-03-04 21:20]   Collecting qudida>=0.0.4 (from albumentations)
+[2024-03-04 21:20]    Downloading qudida-0.0.4-py3-none-any.whl.metadata (1.5 kB)
+[2024-03-04 21:20]              Downloading albumentations-1.4.0-py3-none-any.whl (123 kB)
+[2024-03-04 21:20]     ---------------------------------------- 123.6/123.6 kB 2.4 MB/s eta 0:00:00
+[2024-03-04 21:20]  Downloading qudida-0.0.4-py3-none-any.whl (3.5 kB)
+[2024-03-04 21:20]  Using cached scikit_image-0.22.0-cp310-cp310-win_amd64.whl (24.5 MB)
+[2024-03-04 21:20]  Installing collected packages: scikit-image, qudida, albumentations
+[2024-03-04 21:20]    Attempting uninstall: scikit-image
+[2024-03-04 21:20]      Found existing installation: scikit-image 0.20.0
+[2024-03-04 21:20]      Uninstalling scikit-image-0.20.0:
+[2024-03-04 21:20]        Successfully uninstalled scikit-image-0.20.0
+[2024-03-04 21:20]  Successfully installed albumentations-1.4.0 qudida-0.0.4 scikit-image-0.22.0
+[2024-03-04 21:20] [!] 
+[2024-03-04 21:20] [!] [notice] A new release of pip is available: 23.3.2 -> 24.0
+[2024-03-04 21:20] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-03-04 21:20] 
+[ComfyUI-Manager] Startup script completed.
+[2024-03-04 21:20] #######################################################################
+[2024-03-04 21:20] 
+[2024-03-04 21:20] 
+Prestartup times for custom nodes:
+[2024-03-04 21:20]  209.1 seconds: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-03-04 21:20] 
+[2024-03-04 21:20] Total VRAM 6144 MB, total RAM 16337 MB
+[2024-03-04 21:20] Set vram state to: NORMAL_VRAM
+[2024-03-04 21:20] Device: cuda:0 NVIDIA GeForce GTX 1060 6GB : cudaMallocAsync
+[2024-03-04 21:20] VAE dtype: torch.float32
+[2024-03-04 21:20] Using pytorch cross attention
+[2024-03-04 21:21] ### Loading: ComfyUI-Manager (V2.9)
+[2024-03-04 21:21] ### ComfyUI Revision: 2046 [a38b9b3a] | Released on '2024-03-04'
+[2024-03-04 21:21] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-03-04 21:21] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-03-04 21:21] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-03-04 21:21] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-03-04 21:21] ------------------------------------------
+[2024-03-04 21:21] [34mComfyroll Studio v1.76 : [92m 175 Nodes Loaded[0m
+[2024-03-04 21:21] ------------------------------------------
+[2024-03-04 21:21] ** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
+[2024-03-04 21:21] ** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
+[2024-03-04 21:21] ------------------------------------------
+[36;20m[comfyui_controlnet_aux] | INFO -> Using ckpts path: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\comfyui_controlnet_aux\ckpts[0m
+[2024-03-04 21:21] [36;20m[comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[2024-03-04 21:21] [36;20m[comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2024-03-04 21:21] F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\comfyui_controlnet_aux\node_wrappers\dwpose.py:26: UserWarning: DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly
+  warnings.warn("DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly")
+[2024-03-04 21:21] Searge-SDXL v4.3.1 in F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\SeargeSDXL
+[2024-03-04 21:21] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-03-04 21:21] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\was-node-suite-comfyui\was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-03-04 21:21] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
+[2024-03-04 21:21] 
+	[3m[93m"Success usually comes to those who are too busy to be looking for it."[0m[3m - Henry David Thoreau[0m
+[2024-03-04 21:21] 
+[2024-03-04 21:21] 
+Import times for custom nodes:
+[2024-03-04 21:21]    0.4 seconds: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-03-04 21:21]    1.1 seconds: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\ComfyUI_Comfyroll_CustomNodes
+[2024-03-04 21:21]    1.4 seconds: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\SeargeSDXL
+[2024-03-04 21:21]    2.2 seconds: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\comfyui_controlnet_aux
+[2024-03-04 21:21]    2.9 seconds: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\was-node-suite-comfyui
+[2024-03-04 21:21] 
+[2024-03-04 21:21] Starting server
+[2024-03-04 21:21] 
+[2024-03-04 21:21] To see the GUI go to: http://127.0.0.1:8188
+[2024-03-04 21:21] FETCH DATA from: F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\custom_nodes\ComfyUI-Manager\extension-node-map.json
+[2024-03-04 21:23] got prompt
+[2024-03-04 21:23] ERROR:root:Failed to validate prompt for output 77:
+[2024-03-04 21:23] ERROR:root:* CheckpointLoaderSimple 1:
+[2024-03-04 21:23] ERROR:root:  - Value not in list: ckpt_name: 'SDXL\sd_xl_base_1.0.safetensors' not in ['Panels\\Panels_0.safetensors', 'sd_xl_base_1.0.safetensors', 'sd_xl_refiner_1.0.safetensors', 'v2-1_768-ema-pruned.ckpt']
+[2024-03-04 21:23] ERROR:root:* CheckpointLoaderSimple 83:
+[2024-03-04 21:23] ERROR:root:  - Value not in list: ckpt_name: 'SDXL\sd_xl_refiner_1.0.safetensors' not in ['Panels\\Panels_0.safetensors', 'sd_xl_base_1.0.safetensors', 'sd_xl_refiner_1.0.safetensors', 'v2-1_768-ema-pruned.ckpt']
+[2024-03-04 21:23] ERROR:root:Output will be ignored
+[2024-03-04 21:23] ERROR:root:Failed to validate prompt for output 9:
+[2024-03-04 21:23] ERROR:root:Output will be ignored
+[2024-03-04 21:23] Prompt executed in 0.00 seconds
+[2024-03-04 21:23] got prompt
+[2024-03-04 21:23] ERROR:root:Failed to validate prompt for output 77:
+[2024-03-04 21:23] ERROR:root:* CheckpointLoaderSimple 1:
+[2024-03-04 21:23] ERROR:root:  - Value not in list: ckpt_name: 'SDXL\sd_xl_base_1.0.safetensors' not in ['Panels\\Panels_0.safetensors', 'sd_xl_base_1.0.safetensors', 'sd_xl_refiner_1.0.safetensors', 'v2-1_768-ema-pruned.ckpt']
+[2024-03-04 21:23] ERROR:root:* CheckpointLoaderSimple 83:
+[2024-03-04 21:23] ERROR:root:  - Value not in list: ckpt_name: 'SDXL\sd_xl_refiner_1.0.safetensors' not in ['Panels\\Panels_0.safetensors', 'sd_xl_base_1.0.safetensors', 'sd_xl_refiner_1.0.safetensors', 'v2-1_768-ema-pruned.ckpt']
+[2024-03-04 21:23] ERROR:root:Output will be ignored
+[2024-03-04 21:23] ERROR:root:Failed to validate prompt for output 9:
+[2024-03-04 21:23] ERROR:root:Output will be ignored
+[2024-03-04 21:23] Prompt executed in 0.00 seconds
+[2024-03-04 21:24] got prompt
+[2024-03-04 21:24] ERROR:root:Failed to validate prompt for output 77:
+[2024-03-04 21:24] ERROR:root:* CheckpointLoaderSimple 1:
+[2024-03-04 21:24] ERROR:root:  - Value not in list: ckpt_name: 'SDXL\sd_xl_base_1.0.safetensors' not in ['Panels\\Panels_0.safetensors', 'sd_xl_base_1.0.safetensors', 'sd_xl_refiner_1.0.safetensors', 'v2-1_768-ema-pruned.ckpt']
+[2024-03-04 21:24] ERROR:root:* CheckpointLoaderSimple 83:
+[2024-03-04 21:24] ERROR:root:  - Value not in list: ckpt_name: 'SDXL\sd_xl_refiner_1.0.safetensors' not in ['Panels\\Panels_0.safetensors', 'sd_xl_base_1.0.safetensors', 'sd_xl_refiner_1.0.safetensors', 'v2-1_768-ema-pruned.ckpt']
+[2024-03-04 21:24] ERROR:root:Output will be ignored
+[2024-03-04 21:24] ERROR:root:Failed to validate prompt for output 9:
+[2024-03-04 21:24] ERROR:root:Output will be ignored
+[2024-03-04 21:24] Prompt executed in 0.00 seconds
+[2024-03-04 21:24] got prompt
+[2024-03-04 21:24] ERROR:root:Failed to validate prompt for output 77:
+[2024-03-04 21:24] ERROR:root:* CheckpointLoaderSimple 1:
+[2024-03-04 21:24] ERROR:root:  - Value not in list: ckpt_name: 'SDXL\sd_xl_base_1.0.safetensors' not in ['Panels\\Panels_0.safetensors', 'sd_xl_base_1.0.safetensors', 'sd_xl_refiner_1.0.safetensors', 'v2-1_768-ema-pruned.ckpt']
+[2024-03-04 21:24] ERROR:root:* CheckpointLoaderSimple 83:
+[2024-03-04 21:24] ERROR:root:  - Value not in list: ckpt_name: 'SDXL\sd_xl_refiner_1.0.safetensors' not in ['Panels\\Panels_0.safetensors', 'sd_xl_base_1.0.safetensors', 'sd_xl_refiner_1.0.safetensors', 'v2-1_768-ema-pruned.ckpt']
+[2024-03-04 21:24] ERROR:root:Output will be ignored
+[2024-03-04 21:24] ERROR:root:Failed to validate prompt for output 9:
+[2024-03-04 21:24] ERROR:root:Output will be ignored
+[2024-03-04 21:24] Prompt executed in 0.00 seconds
+[2024-03-04 21:24] got prompt
+[2024-03-04 21:24] ERROR:root:Failed to validate prompt for output 77:
+[2024-03-04 21:24] ERROR:root:* CheckpointLoaderSimple 1:
+[2024-03-04 21:24] ERROR:root:  - Value not in list: ckpt_name: 'SDXL\sd_xl_base_1.0.safetensors' not in ['Panels\\Panels_0.safetensors', 'sd_xl_base_1.0.safetensors', 'sd_xl_refiner_1.0.safetensors', 'v2-1_768-ema-pruned.ckpt']
+[2024-03-04 21:24] ERROR:root:* CheckpointLoaderSimple 83:
+[2024-03-04 21:24] ERROR:root:  - Value not in list: ckpt_name: 'SDXL\sd_xl_refiner_1.0.safetensors' not in ['Panels\\Panels_0.safetensors', 'sd_xl_base_1.0.safetensors', 'sd_xl_refiner_1.0.safetensors', 'v2-1_768-ema-pruned.ckpt']
+[2024-03-04 21:24] ERROR:root:Output will be ignored
+[2024-03-04 21:24] ERROR:root:Failed to validate prompt for output 9:
+[2024-03-04 21:24] ERROR:root:Output will be ignored
+[2024-03-04 21:24] Prompt executed in 0.00 seconds
+[2024-03-04 21:24] got prompt
+[2024-03-04 21:24] ERROR:root:Failed to validate prompt for output 77:
+[2024-03-04 21:24] ERROR:root:* CheckpointLoaderSimple 1:
+[2024-03-04 21:24] ERROR:root:  - Value not in list: ckpt_name: 'SDXL\sd_xl_base_1.0.safetensors' not in ['Panels\\Panels_0.safetensors', 'sd_xl_base_1.0.safetensors', 'sd_xl_refiner_1.0.safetensors', 'v2-1_768-ema-pruned.ckpt']
+[2024-03-04 21:24] ERROR:root:* CheckpointLoaderSimple 83:
+[2024-03-04 21:24] ERROR:root:  - Value not in list: ckpt_name: 'SDXL\sd_xl_refiner_1.0.safetensors' not in ['Panels\\Panels_0.safetensors', 'sd_xl_base_1.0.safetensors', 'sd_xl_refiner_1.0.safetensors', 'v2-1_768-ema-pruned.ckpt']
+[2024-03-04 21:24] ERROR:root:Output will be ignored
+[2024-03-04 21:24] ERROR:root:Failed to validate prompt for output 9:
+[2024-03-04 21:24] ERROR:root:Output will be ignored
+[2024-03-04 21:24] Prompt executed in 0.00 seconds
+[2024-03-04 21:24] got prompt
+[2024-03-04 21:24] ERROR:root:Failed to validate prompt for output 77:
+[2024-03-04 21:24] ERROR:root:* CheckpointLoaderSimple 1:
+[2024-03-04 21:24] ERROR:root:  - Value not in list: ckpt_name: 'SDXL\sd_xl_base_1.0.safetensors' not in ['Panels\\Panels_0.safetensors', 'sd_xl_base_1.0.safetensors', 'sd_xl_refiner_1.0.safetensors', 'v2-1_768-ema-pruned.ckpt']
+[2024-03-04 21:24] ERROR:root:* CheckpointLoaderSimple 83:
+[2024-03-04 21:24] ERROR:root:  - Value not in list: ckpt_name: 'SDXL\sd_xl_refiner_1.0.safetensors' not in ['Panels\\Panels_0.safetensors', 'sd_xl_base_1.0.safetensors', 'sd_xl_refiner_1.0.safetensors', 'v2-1_768-ema-pruned.ckpt']
+[2024-03-04 21:24] ERROR:root:Output will be ignored
+[2024-03-04 21:24] ERROR:root:Failed to validate prompt for output 9:
+[2024-03-04 21:24] ERROR:root:Output will be ignored
+[2024-03-04 21:24] Prompt executed in 0.00 seconds
+[2024-03-04 21:24] got prompt
+[2024-03-04 21:24] ERROR:root:Failed to validate prompt for output 77:
+[2024-03-04 21:24] ERROR:root:* CheckpointLoaderSimple 1:
+[2024-03-04 21:24] ERROR:root:  - Value not in list: ckpt_name: 'SDXL\sd_xl_base_1.0.safetensors' not in ['Panels\\Panels_0.safetensors', 'sd_xl_base_1.0.safetensors', 'sd_xl_refiner_1.0.safetensors', 'v2-1_768-ema-pruned.ckpt']
+[2024-03-04 21:24] ERROR:root:* CheckpointLoaderSimple 83:
+[2024-03-04 21:24] ERROR:root:  - Value not in list: ckpt_name: 'SDXL\sd_xl_refiner_1.0.safetensors' not in ['Panels\\Panels_0.safetensors', 'sd_xl_base_1.0.safetensors', 'sd_xl_refiner_1.0.safetensors', 'v2-1_768-ema-pruned.ckpt']
+[2024-03-04 21:24] ERROR:root:Output will be ignored
+[2024-03-04 21:24] ERROR:root:Failed to validate prompt for output 9:
+[2024-03-04 21:24] ERROR:root:Output will be ignored
+[2024-03-04 21:24] Prompt executed in 0.00 seconds
+[2024-03-04 21:24] got prompt
+[2024-03-04 21:25] model_type EPS
+[2024-03-04 21:25] adm 2816
+[2024-03-04 21:26] Using pytorch attention in VAE
+[2024-03-04 21:26] Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+[2024-03-04 21:26] Using pytorch attention in VAE
+[2024-03-04 21:27] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-03-04 21:27] clip unexpected: ['clip_l.transformer.text_model.embeddings.position_ids']
+[2024-03-04 21:28] model_type EPS
+[2024-03-04 21:28] adm 2560
+[2024-03-04 21:29] Using pytorch attention in VAE
+[2024-03-04 21:29] Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+[2024-03-04 21:29] Using pytorch attention in VAE
+[2024-03-04 21:30] loaded straight to GPU
+[2024-03-04 21:30] Requested to load SDXLRefiner
+[2024-03-04 21:30] Loading 1 new model
+[2024-03-04 21:30] loading in lowvram mode 64.0
+[2024-03-04 21:30] Requested to load SDXLClipModel
+[2024-03-04 21:30] Loading 1 new model
+[2024-03-04 21:30] Requested to load SDXLRefinerClipModel
+[2024-03-04 21:30] Loading 1 new model
+[2024-03-04 21:30] ERROR:root:!!! Exception during processing !!!
+[2024-03-04 21:30] ERROR:root:Traceback (most recent call last):
+  File "F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\execution.py", line 152, in recursive_execute
+    output_data, output_ui = get_output_data(obj, input_data_all)
+  File "F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\execution.py", line 82, in get_output_data
+    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
+  File "F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\execution.py", line 75, in map_node_over_list
+    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
+  File "F:\Art and shit\AI\ComfyUI_REPO\ComfyUI\nodes.py", line 1483, in load_image
+    img = Image.open(image_path)
+  File "C:\Users\Rendord\AppData\Local\Programs\Python\Python310\lib\site-packages\PIL\Image.py", line 3236, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\Art and shit\\AI\\ComfyUI_REPO\\ComfyUI\\input\\image.png'
+
+[2024-03-04 21:30] Prompt executed in 354.89 seconds
+[2024-03-04 21:35] 
+Stopped server

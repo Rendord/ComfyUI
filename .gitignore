@@ -3,9 +3,8 @@ __pycache__/
 /output/
 /input/
 !/input/example.png
-/models/
 /temp/
-/custom_nodes/
+/models/
 !custom_nodes/example_node.py.example
 extra_model_paths.yaml
 /.vs
